@@ -123,7 +123,7 @@ def Toggle():
             t.append(line)
         t.append("</div>")
         t.append("")
-        t.append("![](https://plantuml-server.kkeisuke.app/svg/{})".format(ret))
+        t.append("![](https://www.plantuml.com/plantuml/svg/{})".format(ret))
 
         #print("Code Block is\n{}\n".format(t))
 
